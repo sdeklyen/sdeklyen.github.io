@@ -1,0 +1,13 @@
+#projects {
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.flexContainer {
+    padding: 20em 20em 20em 40em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}

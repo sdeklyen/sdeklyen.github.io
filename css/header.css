@@ -1,6 +1,17 @@
 .jumbotron {
-    background: url(../assets/mike-petrucci-igWb33TA_tM-unsplash.jpg) center 30%;
-    height: 50vh;
+    background: url(assets/mike-petrucci-igWb33TA_tM-unsplash.jpg) center 30%;
+    height: 100vh;
     text-align: center;
-    color: black;
+    color: white;
+    font-stretch: expanded;
+}
+.display-4 {
+    padding-top: 24vh;
+    font-family: 'Cabin', sans-serif;
+    font-size: 80px;
+}
+
+.lead {
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
 }

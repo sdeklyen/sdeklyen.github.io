@@ -1,0 +1,22 @@
+.parallax {
+    background: url(assets/ales-krivec-x4Jc4HKEHKg-unsplash.jpg) center 44%;
+    height: 50vh; 
+    width: 100vw;
+}
+
+.container {
+    padding: 4em 0 4em 0;
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+}
+
+.container h1 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.parallax2 {
+    background: url(assets/simeon-frank-fxW42-qqFMo-unsplash.jpg) center 18%;
+    height: 50vh; 
+    width: 100vw;
+}

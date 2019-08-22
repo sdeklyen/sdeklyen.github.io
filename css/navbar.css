@@ -1,0 +1,9 @@
+.navbar {
+    font-family: 'Red Hat Display', sans-serif;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #05668D;
+}

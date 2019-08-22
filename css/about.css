@@ -1,0 +1,20 @@
+#about {
+    font-family: 'Cabin', sans-serif;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+    color: white;
+}
+#about h1 {
+    text-align: center;
+    padding-bottom: 10px; 
+}
+.about_link {
+    color: #00141c;
+}
+.about_link:hover {
+    color: #8d2c05; 
+}
+
+.row {
+    padding-bottom: 1em; 
+}

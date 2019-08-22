@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel = "stylesheet" href="css/main.css">
-    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Red+Hat+Display&display=swap" rel="stylesheet">
+    <title>Sam DeKlyen's Portfolio</title>
 </head>
 <body>
 <!--NAVBAR-->
-<nav class="navbar navbar-expand-lg navbar-light bg-info">
+<nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,21 +23,16 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -44,28 +40,93 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <br>
+          <br>
+            <h1 class="display-4">Sam DeKlyen</h1>
+            <h3 class="lead">Javascript Developer in Training</h3>
         </div>
     </div>
-
+<!--About Me-->
     <div id="about">
+      <h1 class="text-uppercase">About Me</h1>
         <div class ="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>My name is Sam DeKlyen. I am attending the Eleven Fifty Academy's Javascript course with the goal of becoming a developer and building my career.</p>
                 </div>
                 <div class="col-sm-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>I attended Butler University from 2011 to 2016 and graduating with a journalism degree. After exploring the job market and doing contract work for years, I have dedcided to shift my focus into software development. With previous work with ad agencies, journalism, and freelancing, I bring a wide range of experience to everything I do.</p>
                 </div>
                 <div class="col-sm-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>You can get to know me better by scrolling down and reading further, or you can download <a class="about_link" href="/1-jsFundamentals/JavaScriptPortfolio/Resume 1.pdf" target="_blank" download>my resume</a> or check out <a class="about_link" href="https://www.linkedin.com/in/sam-deklyen-40028381/" target="_blank">my LinkedIn</a> and <a class="about_link" href="https://github.com/sdeklyen" target="_blank">GitHub</a> through these links!</p>
                 </div>
             </div>
         </div>
     </div>
-    <br>
-    <br>
+    <!--A little something nice to break up my portfolio instead of padding or line breaks-->
+    <div class="parallax">
+
+    </div>
+    <div id="body">
+    
+    <div id="skills">
+      <div class="container">
+        <h1 class="text-uppercase">My skills</h1>
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <p>Javascript</p>
+            <img src="css/assets/icons8-javascript-50.png">
+          </div>
+          <div class="col-sm-4 text-center">
+            <p>Adobe Suite</p>
+            <img src="css/assets/icons8-adobe-logo-50.png">
+          </div>
+          <div class="col-sm-4 text-center">
+            <p>Microsoft Office</p>
+            <img src="css/assets/icons8-office-365-50.png">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <p>Wordpress</p>
+            <img src="css/assets/icons8-wordpress-50.png">
+          </div>
+          <div class="col-sm 4 text-center">
+            <p>HTML</p>
+            <img src="css/assets/icons8-html-50.png">
+          </div>
+          <div class="col-sm 4 text-center">
+            <p>CSS</p>
+            <img src="css/assets/icons8-css-50.png">
+          </div>
+        </div>
+        <br>
+        <h3 class="text-center">And much more!</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax2">
+
+    </div>
+
+    </div>
+    <div id="projects">
+      <h1 class="myProjects text-center text-uppercase text-white">My Projects</h1>
+      <div class="flexContainer text-center">
+      <a href="https://sdeklyen.github.io/staticlayout/" target="_blank">
+        <img src="css/assets/staticlayout.PNG" alt="staticLayoutProject" width="300" height="200" class="staticlayoutImage">
+      </a>
+      <a href="https://sdeklyen.github.io/CSSCreature/" target="_blank">
+        <img src="css/assets/gooper.PNG" alt="CSSCreature" width="300" height="200" class="CSSCreatureImage">
+      </a>
+      <a href="https://jsaug2019-nba-player-database.firebaseapp.com/" target="_blank">
+        <img src="css/assets/apiproject.PNG" alt="APIProject" width="300" height="200" class="APIProjectImage">
+      </a>
+      </div>
+
+    </div>
     <div id="contact">
         <div class="container">
             <h2 class="text-center text-uppercase">Contact Me</h2>
@@ -81,11 +142,11 @@
           </div>
           <div class="form-group">
           <label for="email-address">Email Address</label>
-          <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="emailme@yourwebsite.com" required="">
           </div>
           <div class="form-group">
           <label for="message">Message</label>
-          <textarea class="form-control" rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+          <textarea class="form-control" rows="5" name="message" id="message" placeholder="Send me a message!" required=""></textarea>
           <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
           </div>
         </fieldset>
@@ -96,6 +157,13 @@
       </div>
       </div>
       </div>
+      </div>
+      <div id="footer">
+        <div class="footerContainer mr-auto">
+          <a href="https://www.linkedin.com/in/sam-deklyen-40028381/" target="_blank"><img src="css/assets/icons8-linkedin-24.png"></a>
+          <a href="https://github.com/sdeklyen" target="_blank"><img src="css/assets/icons8-github-24.png"></a>
+        </div>
+
       </div>
       <br>
       <br>
